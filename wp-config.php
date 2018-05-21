@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+# enabled SMTP
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'AjAmw7SG9nOMj6BZiVL2pW4VFwTVKzL8OM1ARZQhYlwX' );
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME',     $_SERVER["RDS_DB_NAME"]);
